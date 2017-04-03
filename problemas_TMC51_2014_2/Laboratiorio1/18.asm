@@ -6,11 +6,11 @@ inicio:
 		sjmp inicio
 
 repite:
-	setb P1.0
-	clr P1.1
+	setb P1.0;prende el led
+	clr P1.1;limpia el led
 	lcall sdelay
 	lcall sdelay
-	clr P1.0
+	clr P1.0;paga el led
 	setb P1.1
 	lcall sdelay
 	lcall sdelay

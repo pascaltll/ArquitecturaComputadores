@@ -1,4 +1,4 @@
-org 8000h
+org 8000h;apaga y prende todos los leds
 sdelay equ 142h
 mov P1,#0h
 repite:

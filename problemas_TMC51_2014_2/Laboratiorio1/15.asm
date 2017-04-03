@@ -1,4 +1,4 @@
-org 8000h
+org 8000h;parpadea dos led 
 mov P1,#0h;apagatodos los leds
 repite:
 	setb P1.0 
